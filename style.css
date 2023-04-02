@@ -1,0 +1,32 @@
+body {
+  display: flex;
+  background-color: #0c091d;
+}
+svg {
+  /* margin: auto; */
+}
+.small-lines {
+  stroke: rgba(169, 114, 255, 0.5);
+}
+.big-lines {
+  stroke: #a972ff;
+}
+.akrep {
+  transform-origin: 400px 400px;
+}
+.yelkovan {
+  transform-origin: 400px 400px;
+}
+.second {
+  transform-origin: 400px 400px;
+}
+/* #numbers {
+  position: relative;
+  width: 800px;
+  height: 800px;
+} */
+.text {
+  position: fixed;
+  font-size: 30px;
+  color: #fff;
+}
