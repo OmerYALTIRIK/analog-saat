@@ -2,9 +2,7 @@ body {
   display: flex;
   background-color: #0c091d;
 }
-svg {
-  /* margin: auto; */
-}
+
 .small-lines {
   stroke: rgba(169, 114, 255, 0.5);
 }
@@ -20,13 +18,17 @@ svg {
 .second {
   transform-origin: 400px 400px;
 }
-/* #numbers {
-  position: relative;
-  width: 800px;
-  height: 800px;
-} */
+
 .text {
-  position: fixed;
+  position: absolute;
   font-size: 30px;
   color: #fff;
+  transform: translate(-50%, -50%);
+}
+
+.clock {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
 }
